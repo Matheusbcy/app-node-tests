@@ -1,0 +1,19 @@
+{
+  "description": "",
+  "scripts": {
+    "lint": "eslint src/** test/** --fix",
+    "test": "jest",
+    "secure-mode": "jest --watchAll --verbose=true",
+    "start": "node src/server.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "23.6.0",
+    "supertest": "3.3.0"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "consign": "0.1.6",
+    "express": "4.16.4"
+  }
+}
